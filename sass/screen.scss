@@ -4,6 +4,26 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+@font-face {
+font-family: 'Helvetica';
+        src:    url('https://nomail.com.ua/files/eot/cd2355028bca504c63a432c086eceb52.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/cd2355028bca504c63a432c086eceb52.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/cd2355028bca504c63a432c086eceb52.woff2') format('woff2');
+        font-weight: 400;  
+        font-style: normal; 
+}
+
+@font-face {
+font-family: 'Helvetica';
+        src:    url('https://nomail.com.ua/files/eot/7ac1c8f0b974a943aa67859c07f86bd2.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/7ac1c8f0b974a943aa67859c07f86bd2.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/7ac1c8f0b974a943aa67859c07f86bd2.woff2') format('woff2');
+        font-weight: 700;  
+        font-style: normal; 
+}
+
+
 body{    font-family: Helvetica;}
 *{
     box-sizing: border-box;
@@ -93,6 +113,7 @@ body{    font-family: Helvetica;}
             .header__item1 {
                 position: relative;
                 padding-top: 83px;
+                height: 100%;
                
                 .header__h1 {
                     width: 306px;
@@ -116,7 +137,7 @@ body{    font-family: Helvetica;}
                 
                 h3 {
                     margin-top: 35px;
-                    width: 410px;
+                    width: 420px;
                     font-family: Helvetica;
                     font-size: 64px;
                     font-weight: bold;
@@ -206,6 +227,7 @@ body{    font-family: Helvetica;}
             -webkit-transition: all 0.3s ease-out;
             
             &:hover {
+                box-shadow: 0 13px 25px 0px rgba(0, 0, 0, 0.18);
                 -webkit-transform: scale(1.04);
                 -moz-transform: scale(1.04);
                 -o-transform: scale(1.04);
@@ -324,3 +346,119 @@ body{    font-family: Helvetica;}
     }
     
 }
+
+
+
+/*********************************************************/
+
+.work {
+    position: relative;
+    margin: 70px auto 0;
+    width: 1080px;
+    
+    h2 {
+        margin: 0 0 24px 0;
+    }
+    
+    
+    &__items {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        
+        .work__item1 {
+            width: 487px;
+            background-image: url(../img/bg-triangles-left.png);
+            background-position: left bottom;
+        }
+        
+        .work__item2 {
+            width: 553px;
+            background-image: url(../img/bg-triangles-right.png);
+            background-position: right top;
+        }
+        
+        .work__item {
+            height: 505px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            padding: 40px 32px 0;
+            background-color: rgba(#efefef, 0.35);
+            
+            h3 {
+                font-family: Helvetica;
+                font-size: 32px;
+                font-weight: bold;
+                margin-bottom: 33px;
+                color: #353535;
+            }
+            
+            li {
+                margin-bottom: 22px;
+                
+                img {
+                    display: inline-block;
+                    margin-right: 16px;
+                    
+                }
+                p {
+                    display: inline-block;
+                    vertical-align: top;
+                    font-family: Helvetica;
+                    font-size: 14px;
+                    line-height: 1.57;
+                    color: #737373;
+                    max-width: 392px;
+                }
+            }
+        }
+    }
+}
+
+
+/******************************************************************************/
+.reviews {
+    width: 1080px;
+    position: relative;
+    margin: 80px auto 0;
+    
+    h2 {
+        margin: 0 0 40px 0;
+    }
+    
+    &__item {
+        width: 325px;
+        height: 320px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 60px;
+        font-family: Helvetica;
+        font-size: 14px;
+        
+        img {
+            display: inline-block;
+        }
+        span {
+            font-weight: bold;
+            color: #4a4a4a;
+            position: relative;
+            top: -12px;
+            left: 20px;
+            display: inline-block;
+        }
+        p {
+            line-height: 1.71;
+            color: #999999;
+            margin-top: 10px;
+        }
+    }
+}
+
+
+
+
+/******************************************************************************/
+.chart {
+    
+}
+

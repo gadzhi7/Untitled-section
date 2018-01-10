@@ -109,26 +109,26 @@
 	
 	<div class="work">
 		<h2 class="h2">Как это работает</h2>
-		<img src="" alt="">
+		<img src="img/screen-01.png" alt="">
 		<div class="work__items">
-			<div class="work__item">
-				<h3>С картой Тонтрек вы получаете</h3>
+			<div class="work__item work__item1">
+				<h3>Вам всегда доступно</h3>
 				<ul>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
+					<li><img src="img/icon-check.png" alt=""><p>Личный кабинет: аудиозаписи всех разговоров с юристом</p></li>
+					<li><img src="img/icon-check.png" alt=""><p>Экстренные консультации детям владельцев карт</p></li>
+					<li><img src="img/icon-check.png" alt=""><p>Круглосуточные бесплатные звонки в неограниченных количествах</p></li>
+					<li><img src="img/icon-check.png" alt=""><p>Ответ на звонок из любой точки мира</p></li>
+					<li><img src="img/icon-check.png" alt=""><p>«Поговорите с моим адвкатом»</p></li>
 				</ul>
 			</div>
-			<div class="work__item">
+			<div class="work__item work__item2">
 				<h3>С картой Тонтрек вы получаете</h3>
 				<ul>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
-					<li><img src="" alt=""></li>
+					<li><img src="img/icon-star.png" alt=""> <p>Круглосуточная правая помощь - в любой момент на всей территории России;</p></li>
+					<li><img src="img/icon-star.png" alt=""> <p>Дистонционная поддержка: где бы вы не находились, адвокат всегда рядом;</p></li>
+					<li><img src="img/icon-star.png" alt=""> <p>Звонок бесплатный: консультация будет длиться столько времени, сколько нужно;</p></li>
+					<li><img src="img/icon-star.png" alt=""> <p>Личный кабинет владельца карты: возможность прослушать аудиозапись своего разговора с адвокатом, переписка с юристом, более 100 типовых договоров, инструкций и памяток ;</p></li>
+					<li><img src="img/icon-star.png" alt=""> <p>Экстренные консультации детям владельцев карт: в любой экстренной ситуации ребенок клиента будет иметь круглосуточную юридическую защиту;</p></li>
 				</ul>
 			</div>
 		</div>
@@ -138,23 +138,27 @@
 	<div class="reviews">
 		<h2 class="h2">Отзывы клиентов</h2>
 		<div class="slideshow3">
-			<div class="slide3">
-				<img src="" alt="">
+			<div class="slide3 reviews__item">
+				<img src="img/avatar-01.png" alt="">
 				<span>Игорь Дронин</span>
 				<p>Мой клиент попал в ДТП на Садовом кольце, несмотря на очевидность произошедшего, второй участник отказывался признать себя виноватым. Юристы вели дело с самого начала, то есть с составления протокола до самой группы разбора, которых в итоге было две. Тем не менее, все закончилось хорошо, наш клиент прав в этой ситуации и получил возмещение ущерба, предусмотренное страховкой.</p>
 			</div>
-			<div class="slide3">
-				<img src="" alt="">
-				<span></span>
-				<p></p>
+			<div class="slide3 reviews__item " >
+				<img src="img/avatar-02.png" alt="">
+				<span>Алексей Сенин</span>
+				<p>Несколько раз обращалcz - юристы грамотно мне ответили, всё, что было непонятно, объяснили и подсказали как правильно поступить. Если после первого обращения и были сомнения, что нечего не поможет, то результат получился замечательный. Так что буду и дальше работать с вами!)</p>
 			</div>
-			<div class="slide3">
+			<div class="slide3 reviews__item">
 				<img src="" alt="">
 				<span></span>
 				<p></p>
 			</div>
 		</div>
 	</div>
+	
+	
+	
+	
 	
 	<div class="chart">
 		<div class="chart__consultations">
