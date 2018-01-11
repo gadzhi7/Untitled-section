@@ -23,6 +23,10 @@ font-family: 'Helvetica';
         font-style: normal; 
 }
 
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
 
 body{    font-family: Helvetica;}
 *{
@@ -247,12 +251,25 @@ body{    font-family: Helvetica;}
                 
             }
             
-            img {
+            .bg_triangle {
                 position: absolute;
                 top: 0;
-                z-index: 1;
+                z-index: 2;
                 left: 0;
             }
+            .need-it_icon1 {
+                position: absolute;
+                z-index: 1;
+                left: calc(50% - 88px);
+                top: calc(50% - 111px);
+            }
+            .need-it_icon2 {
+                position: absolute;
+                z-index: 1;
+                left: calc(50% - 111px);
+                top: calc(50% - 111px);
+            }
+            
             p {
                 position: relative;
                 z-index: 3;
@@ -539,11 +556,24 @@ body{    font-family: Helvetica;}
         border-radius: 8px;
         border: solid 1px #efefef;
         
-        
-        .card_big {
-            height: 148px;
-            
+        .card_small {
+            height: 54px;
+            padding-top: 16px;
         }
+        .card_medium {
+            height: 76px;
+            padding-top: 16px;
+        }
+        
+        .card_big {    
+            height: 148px;
+            img {
+                margin: 16px 0 0 -4px;
+            }
+        }
+        .p10 {    padding-top: 10px;    }
+        .card__price {  font-size: 18px;    }
+        .card__name {   font-size: 16px; }
         
         .card__enumeration {
             width: 403px;
@@ -553,7 +583,7 @@ body{    font-family: Helvetica;}
             
             
             li {
-                padding: 16px 0 16px 14px;
+                padding-left: 14px;
                 font-family: Helvetica;
                 font-size: 14px;
                 display: block;
@@ -588,19 +618,22 @@ body{    font-family: Helvetica;}
             
             
             li {
-                padding: 16px 5px 16px 14px;
-                font-family: Helvetica;
+                padding-left: 14px;
                 font-size: 14px;
                 display: block;
                 line-height: 1.57;
                 text-align: center;
                 color: #737373;
                 border-bottom: solid 1px rgba(#e4e4e4, 0.6);
-                
                 width: 103%;
                 margin-left: -4px;
+                
+                span {
+                    font-weight: bold;
+                }
             }
         }
+        .card__vip { border-right:  0;}
     }
 }
 
@@ -608,6 +641,7 @@ body{    font-family: Helvetica;}
 
 .contacts {
     width: 100%;
+    margin-top: 90px;
     height: 464px;
     position: relative;
     background: linear-gradient(110deg, #4dbc66, #1a8e4a);
@@ -656,6 +690,32 @@ body{    font-family: Helvetica;}
             margin: 0 auto;
         }
         
+        .contacts__input {
+            width: 320px;
+            height: 40px;
+            opacity: 0.9;
+            border-radius: 100px;
+            border: none;
+            padding-left: 16px;
+            background-color: #f9f8f8;
+        }
+        span {
+            opacity: 0.6;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+        .contacts__submit {
+            width: 169px;
+            height: 40px;
+            opacity: 0.9;
+            border-radius: 100px;
+            background-color: #ffffff;
+            color: #299e59;
+            margin-left: 30px;
+            border: none;
+        }
+        
+        
         h5 {
             margin: 32px 0 16px;
             font-size: 14px;
@@ -677,6 +737,22 @@ body{    font-family: Helvetica;}
                 font-size: 14px;
                 font-weight: bold;
                 margin-bottom: 16px;
+            }
+            
+            ul {
+                width: 235px;
+                margin: 0 auto;
+                justify-content: space-around;
+                display: flex;
+                
+                li {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    transition: 0.3s;
+                    border: 1px solid #fff;
+                }
+               
             }
         }
     }    

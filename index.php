@@ -67,22 +67,26 @@
 		<div class="need-it__items">
 			<div class="need-it__item need-it_orange">
 				<img src="img/bg-triangle.png"  class="bg_triangle">
+				<img src="img/icon-clock.png"  class="need-it_icon2">
 				<p>Остановил инcпектор ГИБДД <br> и угрожает задержанием за <br> якобы неоплаченные штрафы</p>
 				<a href=""><img src="img/arrow-right.png" alt=""><span>Чем кончилось?</span></a>
 				
 			</div>
 			<div class="need-it__item need-it_blue">
 				<img src="img/bg-triangle.png"  class="bg_triangle">
+				<img src="img/icon-clock.png"  class="need-it_icon2">
 				<p>Выселили из номера в <br> гостинице раньше <br> времени?</p>
 				<a href=""><img src="img/arrow-right.png" alt=""><span>Чем кончилось?</span></a>
 			</div>
 			<div class="need-it__item need-it_green">
 				<img src="img/bg-triangle.png"  class="bg_triangle">
+				<img src="img/icon-list.png"  class="need-it_icon1">
 				<p>Вам не оплатили <br>больничный лист?</p>
 				<a href=""><img src="img/arrow-right.png" alt=""><span>Чем кончилось?</span></a>
 			</div>
 			<div class="need-it__item need-it_purple">
 				<img src="img/bg-triangle.png"  class="bg_triangle">
+				<img src="img/icon-text-list.png"  class="need-it_icon1">
 				<p>Работодатель вынуждает писать  <br> заявление «По-собственному», <br> но вы против</p>
 				<a href=""><img src="img/arrow-right.png" alt=""><span>Чем кончилось?</span></a>
 			</div>
@@ -185,130 +189,135 @@
 			<div class="card__enumeration">
 				<ul>
 					<li class="card_big"></li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Личный кабинет</li>
-					<li>Устные консультации делового характера 10/5</li>
-					<li>Устные консультации делового характера 10/5</li>
-					<li>Устные консультации делового характера 10/5</li>
-					<li>Устные консультации делового характера 10/5</li>
-					<li>Устные консультации делового характера 10/5</li>
-					<li>Устные консультации делового характера 10/5</li>
-					<li>Устные консультации делового характера 10/5</li>
-					<li><span>Официальный звонок адвоката от имени клиента beta</span></li>
-					<li><span>Официальный звонок адвоката от имени клиента beta</span></li>
+					<li class="card_small"><span>Личный кабинет</span></li>
+					<li class="card_small"><span>Личный кабинет</span></li>
+					<li class="card_small"><span>Юридические консльтации 12/7</span></li>
+					<li class="card_small"><span>Экстренные юридические консультации 24/7</span></li>
+					<li class="card_small"><span>Вызов экстренных служб</span></li>
+					<li class="card_small"><span>Устные комментарии документов</span></li>
+					<li class="card_small"><span>Устная помощь в составлении документов 10/7</span></li>
+					<li class="card_small"><span>Устные консультации делового характера 10/5</span></li>
+					<li class="card_small"><span>Письменный комментарии документов</li>
+					<li class="card_small"><span>Письменные консультации</span></li>
+					<li class="card_small"><span>Письменное составление документов</span></li>
+					<li class="card_medium"><span>Письменное консультирование делового характера</span></li>
+					<li class="card_small"><span>Аудиозапись разговора</span></li>
+					<li class="card_small"><span>Возможность звонка через Skype</span></li>
+					<li class="card_small"><span>«Поговорите с моим адвокатом» 24/7 beta</span></li>
+					<li class="card_medium"><span>Официальный звонок адвоката от имени клиента beta</span></li>
+					<li class="card_small"><span>Предоставление договоров и бланков ГКРФ</span></li>
+					<li class="card_small"><span>Дети клиента - экстренные консультации beta</span></li>
+					<li class="card_small"><span>Travel consierge</span></li>
+					<li class="card_small"><span>Тантрек Европа</span></li>
+					<li class="card_small"><span>Стоимость годового обслуживания</span></li>
 				</ul>
 			</div>
 			<div class="card__options">
 				<div class="card__lite">
 					<ul>
-						<li class="card_big"></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li><span>1 консультация</span>в месяц</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li><span>1 консультация</span>в месяц</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li class="card_big"> <img src="img/bitmap.png"  class="Bitmap"></li>
+						<li class="card_small card__name"><span>Lite</span></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small p10"><span>1 консультация</span> <br>в месяц</li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>	
+						<li class="card_medium"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_medium"><span>1 звонок</span> <br>в месяц</li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><span class="card__price">6 500 ₽</span> в год</li>
 					</ul>
 					<a href=""></a>
 				</div>
 				<div class="card__optimum">
 					<ul>
-						<li class="card_big"></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li><span>1 консультация</span>в месяц</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li><span>1 консультация</span>в месяц</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li class="card_big"><img src="img/bitmap_2.png"    class="Bitmap"></li>
+						<li class="card_small card__name"><span>Lite</span></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small p10"><span>1 консультация</span> <br>в месяц</li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>	
+						<li class="card_medium"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_medium"><span>1 звонок</span> <br>в месяц</li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><span class="card__price">6 500 ₽</span> в год</li>
 					</ul>
 					<a href=""></a>
 				</div>
 				<div class="card__family">
 					<ul>
-						<li class="card_big"></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li><span>1 консультация</span>в месяц</li>
-						<li><span>1 консультация</span>в месяц</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li class="card_big"><img src="img/bitmap_3.png"    class="Bitmap"></li>
+						<li class="card_small card__name"><span>Lite</span></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small p10"><span>1 консультация</span><br>в месяц</li>
+						<li class="card_small p10"><span>1 консультация</span><br>в месяц</li>
+						<li class="card_small p10"><span>1 консультация</span><br>в месяц</li>		
+						<li class="card_medium"><span>1 консультация</span> <br>в месяц</li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_medium"><span>1 звонок</span> <br>в месяц</li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><span class="card__price">6 500 ₽</span> в год</li>
 					</ul>
 					<a href=""></a>
 				</div>
 				<div class="card__vip">
 					<ul>
-						<li class="card_big"></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li><span>1 консультация</span>в месяц</li>
-						<li><span>1 консультация</span>в месяц</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
+						<li class="card_big"><img src="img/bitmap_4.png"    class="Bitmap"></li>
+						<li class="card_small card__name"><span>Lite</span></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small p10"><span>1 консультация</span><br>в месяц</li>
+						<li class="card_small p10"><span>1 консультация</span><br>в месяц</li>
+						<li class="card_small p10"><span>1 консультация</span><br>в месяц</li>	
+						<li class="card_medium"><span>1 консультация</span> <br>в месяц</li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_medium"><span>1 звонок</span><br>в месяц</li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><img src="img/icon-check.png"    class="icon_check"></li>
+						<li class="card_small"><span class="card__price">6 500 ₽</span> в год</li>
 					</ul>
 					<a href=""></a>
 				</div>
@@ -324,20 +333,20 @@
 			<h4>Понятные объяснения запутанных законов у вас в почте</h4>
 			<div class="contacts__line"></div>
 			<h5>Оставьте свой телефон или e-mail, чтобы первыми узнавать самые важные новости.</h5>
-			<input type="text">
+			<input type="tel" class="contacts__input contacts_tel">
 			<span>или</span>
-			<input type="text">
-			<input type="submit" value="ОТПРАВИТЬ">
+			<input type="email" class="contacts__input contacts_email" placeholder="earline_hodkiewicz@yahoo.com">
+			<input type="submit" value="ОТПРАВИТЬ" class="contacts__submit">
 			
 			<p>Никакого спама — слово юриста. Хотите убедиться перед тем, как подписаться на рассылку? Посомтрите, как это выглядит.</p>
 			<div class="contacts__line"></div>
 			<div class="soc">
 				<p>Мы в социальных сетях</p>
 				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li class="soc__vk" ></li>
+					<li class="soc__fb" ></li>
+					<li class="soc__tw" ></li>
+					<li class="soc__you" ></li>
 				</ul>
 			</div>
 		</div>
