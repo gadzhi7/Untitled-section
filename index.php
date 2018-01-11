@@ -162,59 +162,66 @@
 	
 	<div class="chart">
 		<div class="chart__consultations">
-			<h4>А кто оказывает	консултации?</h4>
-			<p>«Тонтрек»— компания, специализирующаяся на оказании дистанционной (по телефону) круглосуточной юридической помощи гражданам и организациям по любым правовым вопросам. При разработке и внедрении услуги менеджмент компании воспользовался многолетним европейским опытом оказания дистанционных юридических услуг. </p>
+		<img src="img/bg-triangles-consultation.png">
+			<div>
+				<h4>А кто оказывает	консултации?</h4>
+				<p>«Тонтрек»— компания, специализирующаяся на оказании дистанционной <br> (по телефону) круглосуточной юридической помощи гражданам и организациям по любым правовым вопросам. <br> При разработке и внедрении услуги менеджмент компании воспользовался многолетним европейским опытом оказания дистанционных юридических услуг. </p>
+			</div>
 		</div>
-		<div class="chart__inner"></div>
+		<div class="chart__inner">
+		
+		</div>
 	</div>
 	
 	
 	<div class="card">
 		<h2 class="h2">Приобритение карты юридической помощи избавляет от необходимости найма адвоката, экономит ваше время и деньги.</h2>
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
+		<ul class="card__ul">
+			<li>– Вы просто выбираете ту карту – и, соответственно, тот тариф, пакет услуг в котором актуален для вас.</li>
+			<li>– Все остальное – забота специалистов Тонтрек.</li>
+			<li>– Мы предлагаем юридическую помощь в удобном для клиента формате, доступную всегда и везде. </li>
 		</ul>
 		<div class="card__table">
 			<div class="card__enumeration">
 				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
-					<li></li>
+					<li class="card_big"></li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Личный кабинет</li>
+					<li>Устные консультации делового характера 10/5</li>
+					<li>Устные консультации делового характера 10/5</li>
+					<li>Устные консультации делового характера 10/5</li>
+					<li>Устные консультации делового характера 10/5</li>
+					<li>Устные консультации делового характера 10/5</li>
+					<li>Устные консультации делового характера 10/5</li>
+					<li>Устные консультации делового характера 10/5</li>
+					<li><span>Официальный звонок адвоката от имени клиента beta</span></li>
+					<li><span>Официальный звонок адвоката от имени клиента beta</span></li>
 				</ul>
 			</div>
 			<div class="card__options">
 				<div class="card__lite">
 					<ul>
+						<li class="card_big"></li>
 						<li></li>
 						<li></li>
 						<li></li>
 						<li></li>
 						<li></li>
 						<li></li>
+						<li><span>1 консультация</span>в месяц</li>
 						<li></li>
 						<li></li>
 						<li></li>
-						<li></li>
-						<li></li>
+						<li><span>1 консультация</span>в месяц</li>
 						<li></li>
 						<li></li>
 						<li></li>
@@ -229,17 +236,18 @@
 				</div>
 				<div class="card__optimum">
 					<ul>
+						<li class="card_big"></li>
 						<li></li>
 						<li></li>
 						<li></li>
 						<li></li>
 						<li></li>
 						<li></li>
+						<li><span>1 консультация</span>в месяц</li>
 						<li></li>
 						<li></li>
 						<li></li>
-						<li></li>
-						<li></li>
+						<li><span>1 консультация</span>в месяц</li>
 						<li></li>
 						<li></li>
 						<li></li>
@@ -254,6 +262,7 @@
 				</div>
 				<div class="card__family">
 					<ul>
+						<li class="card_big"></li>
 						<li></li>
 						<li></li>
 						<li></li>
@@ -266,8 +275,8 @@
 						<li></li>
 						<li></li>
 						<li></li>
-						<li></li>
-						<li></li>
+						<li><span>1 консультация</span>в месяц</li>
+						<li><span>1 консультация</span>в месяц</li>
 						<li></li>
 						<li></li>
 						<li></li>
@@ -279,6 +288,7 @@
 				</div>
 				<div class="card__vip">
 					<ul>
+						<li class="card_big"></li>
 						<li></li>
 						<li></li>
 						<li></li>
@@ -289,8 +299,8 @@
 						<li></li>
 						<li></li>
 						<li></li>
-						<li></li>
-						<li></li>
+						<li><span>1 консультация</span>в месяц</li>
+						<li><span>1 консультация</span>в месяц</li>
 						<li></li>
 						<li></li>
 						<li></li>
@@ -307,24 +317,29 @@
 	</div>
 	
 	<div class="contacts">
-		<h2>Будьте в курсе</h2>
-		<h4>Понятные объяснения запутанных законов у вас в почте</h4>
-		<div class="contacts__line"></div>
-		<h5>Оставьте свой телефон или e-mail, чтобы первыми узнавать самые важные новости.</h5>
-		<input type="text">
-		<input type="text">
-		<input type="text">
-		<span>или</span>
-		<p>Никакого спама — слово юриста. Хотите убедиться перед тем, как подписаться на рассылку? Посомтрите, как это выглядит.</p>
-		<div class="contacts__line"></div>
-		<div class="soc">
-			<p>Мы в социальных сетях</p>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
+	<img src="img/bg-triangle-input-left.png"  class="bg_triangle_input_left">
+	<img src="img/bg-triangle-input-right.png"   class="bg_triangle_input_right">
+		<div class="contacts__inner">
+			<h2>Будьте в курсе</h2>
+			<h4>Понятные объяснения запутанных законов у вас в почте</h4>
+			<div class="contacts__line"></div>
+			<h5>Оставьте свой телефон или e-mail, чтобы первыми узнавать самые важные новости.</h5>
+			<input type="text">
+			<span>или</span>
+			<input type="text">
+			<input type="submit" value="ОТПРАВИТЬ">
+			
+			<p>Никакого спама — слово юриста. Хотите убедиться перед тем, как подписаться на рассылку? Посомтрите, как это выглядит.</p>
+			<div class="contacts__line"></div>
+			<div class="soc">
+				<p>Мы в социальных сетях</p>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	
@@ -334,10 +349,14 @@
 			<h2>Конкурс</h2>
 		</div>
 		<div class="footer__inner">
-			<p class="company">Правила использования информации, размещенной на сайте Компании (ООО «Тонтрек»)</p>
-			<span>© 2010-2017 </span>
-			<a href="" class="made">Сделано в HiSmith</a>
-			<p class="smi">Информация для СМИ</p>
+			<img src="img/bg-triangle-footer-left.png" class="bg_triangle_footer_left">
+				<img src="img/bg-triangle-footer-right.png" class="bg_triangle_footer_right">
+			<div>
+				<p class="company">Правила использования информации, размещенной на сайте Компании (ООО «Тонтрек»)</p>
+				<span>© 2010-2017 </span>
+				<a href="" class="made">Сделано в HiSmith</a>
+				<p class="smi">Информация для СМИ</p>
+			</div>
 		</div>
 	</footer>
 	
