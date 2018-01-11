@@ -109,15 +109,52 @@ body{    font-family: Helvetica;}
         
        
             
-        .slideshow {
+        .slideshow1 {
             margin: 0 auto;
             padding:  0 40px;
+            position: relative;
             width: 1080px;
+            
+            .slide {
+                opacity: 0;
+                transition: 0.7s;
+                position: absolute;
+                top: 0;
+            }
+             .showed {
+                opacity: 1;
+                transition: 0.7s;
+            }
+            
+            #prewbutton1, #nextbutton1{
+                position: absolute;
+                top: 159px;
+                width: 41px;
+                line-height: 200px;
+                font-size: 35px;
+                height: 200px;
+                z-index: 999;
+                text-decoration: none;
+                text-align: center;
+                color: #aaa;
+                
+                &:hover {
+                    background-color: rgba(#4cbd66, 0.2);
+                }
+            }
+            #prewbutton1 {
+                left: -40px; 
+            }
+            #nextbutton1 {
+                right: -40px;
+            }
+               
                 
             .header__item1 {
                 position: relative;
                 padding-top: 83px;
-                height: 100%;
+                width: 1080px;
+                height: 528px;
                
                 .header__h1 {
                     width: 306px;

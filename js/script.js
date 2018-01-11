@@ -1,5 +1,5 @@
-var hwSlideSpeed = 700;
-var hwTimeOut = 5000;
+/*var hwSlideSpeed = 200;
+var hwTimeOut = 300;
 var hwNeedLinks = true;
 
 
@@ -7,7 +7,7 @@ $(document).ready(function(e) {
     $('.slide').hide().eq(0).show();
     var slideNum = 0;
     var slideTime;
-    var slideCount = $(".slide").size();
+    var slideCount = $(".slide").length;
     var animSlide = function(arrow){
         clearTimeout(slideTime);
         $('.slide').eq(slideNum).fadeOut(hwSlideSpeed);
@@ -26,13 +26,11 @@ $(document).ready(function(e) {
         else{
             slideNum = arrow;
             }
-        $('.slide').eq(slideNum).fadeIn(hwSlideSpeed, rotator);
-        $(".control-slide.active").removeClass("active");
-        $('.control-slide').eq(slideNum).addClass('active');
-        }
+    }
+		
 	if(hwNeedLinks){
-		var $linkArrow = $('<a id="prewbutton" href="#"></a><a id="nextbutton" href="#"></a>')
-		.prependTo('#slideshow');      
+		var $linkArrow = $('<a id="prewbutton" href="#"><</a><a id="nextbutton" href="#">></a>')
+		.prependTo('.slideshow');      
 		$('#nextbutton').click(function(){
 			animSlide("next");
  
@@ -42,16 +40,7 @@ $(document).ready(function(e) {
         })
 	}
     var $adderSpan = '';
-    $('.slide').each(function(index) {
-            $adderSpan += '<span class = "control-slide">' + index + '</span>';
-        });
-    $('<div class ="sli-links">' + $adderSpan +'</div>').appendTo('#slider-wrap');
-    $(".control-slide:first").addClass("active");
-     
-    $('.control-slide').click(function(){
-    var goToNum = parseFloat($(this).text());
-    animSlide(goToNum);
-    });
+
     var pause = false;
     var rotator = function(){
     if(!pause){slideTime = setTimeout(function(){animSlide('next')}, hwTimeOut);}
@@ -61,36 +50,71 @@ $(document).ready(function(e) {
         function(){pause = false; rotator();
         });
     rotator();
-	
 });
-
-
-
-/**************** модальное окно **************
-
-
-$(document).ready(function() { 
-	$('li.modal').click( function(event){ // лoвим клик пo ссылки с id="modal"
-		event.preventDefault(); // выключaем стaндaртную рoль элементa
-		$('#overlay').fadeIn(400, // снaчaлa плaвнo пoкaзывaем темную пoдлoжку
-		 	function(){ // пoсле выпoлнения предъидущей aнимaции
-				$('#modal_form') 
-					.css('display', 'block') // убирaем у мoдaльнoгo oкнa display: none;
-					.animate({opacity: 1, top: '50%'}, 200); // плaвнo прибaвляем прoзрaчнoсть oднoвременнo сo съезжaнием вниз
-		});
-	});
-	// Зaкрытие мoдaльнoгo oкнa, тут делaем тo же сaмoе нo в oбрaтнoм пoрядке 
-	$('#modal_close, #overlay').click( function(){ // лoвим клик пo крестику или пoдлoжке
-		$('#modal_form')
-			.animate({opacity: 0, top: '45%'}, 200,  // плaвнo меняем прoзрaчнoсть нa 0 и oднoвременнo двигaем oкнo вверх
-				function(){ // пoсле aнимaции
-					$(this).css('display', 'none'); // делaем ему display: none;
-					$('#overlay').fadeOut(400); // скрывaем пoдлoжку
-				}
-			);
-	});
-});
-
 
 */
+
+
+window.onload = function () {
+    
+    new Slider({
+        images: '.slideshow1 .slide',
+        btnPrev: '#prewbutton1',
+        btnNext: '#nextbutton1',
+        auto: false
+    });
+    
+	/*new Slider({
+        images: '.gallery-2 img',
+        btnPrev: '.gallery-2 .buttons .prev',
+        btnNext: '.gallery-2 .buttons .next',
+        auto: true,
+        rate: 2000
+    });*/
+}
+
+
+function Slider(obj) {
+    this.images = document.querySelectorAll(obj.images);
+		
+	this.auto = obj.auto;
+		
+	this.btnPrev = obj.btnPrev;
+	this.btnNext = obj.btnNext;
+    
+    this.rate = obj.rate || 1000;
+	
+	var i = 0;
+    
+    var slider = this;
+
+	this.prev = function () {
+		slider.images[i].classList.remove('showed');
+		i--;
+
+		if (i < 0) {
+			i = slider.images.length - 1;
+		}
+
+		slider.images[i].classList.add('showed');
+	}
+
+	this.next = function () {
+		slider.images[i].classList.remove('showed');
+		i++;
+
+		if (i >= slider.images.length) {
+			i = 0;
+		}
+
+		slider.images[i].classList.add('showed');
+	}
+	
+    document.querySelector(slider.btnPrev).onclick = slider.prev;
+    document.querySelector(slider.btnNext).onclick = slider.next;
+		
+	if(slider.auto)	{
+        setInterval(slider.next, slider.rate);
+    }
+}
 

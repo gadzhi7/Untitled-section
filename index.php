@@ -9,7 +9,8 @@
     <link href="css/screen.css" rel="stylesheet">
 	<link href="css/media.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/script.js" type="text/javascript"></script>
+	<script src="js/mask.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>  
 
 
    
@@ -32,29 +33,39 @@
     	</div>
 		<div class="header_allwidth">
     		<div class="header__inner">
-    			<div class="slideshow">
-    				<div class="slide header__item1">
-    					<div class="header__h1">
-    						<h1> наследование и семейное право </h1>
+    			<div class="slideshow1">
+					<a id="prewbutton1" href="#"><</a>
+					<a id="nextbutton1" href="#">></a>
+    				<div class="slide showed">
+    					<div class="header__item1">
+    						<div class="header__h1">
+    							<h1> наследование и семейное право </h1>
+    						</div>
+    						<h3>- сейчас они у меня получат</h3>
+    						<p>Нина Петровна, 2 часа ночи</p>
+    						<img src="img/grandma.png" alt="бабушка">
     					</div>
-    					<h3>- сейчас они у меня получат</h3>
-    					<p>Нина Петровна, 2 часа ночи</p>
-    					<img src="img/grandma.png" alt="бабушка">
     				</div>
-    				<!--
-    						<div class="slide">
-    					<h1> наследование и семейное право </h1>
-    					<h3>- сейчас они у меня получат</h3>
-    					<p>Нина Петровна, 2 часа ночи</p>
-    					<img src="" alt="">
+					<div class="slide">
+    					<div class="header__item1">
+    						<div class="header__h1">
+    							<h1> наследование и семейное право </h1>
+    						</div>
+    						<h3>Конкрентно получат</h3>
+    						<p>Нина Петровна, 2 часа ночи</p>
+    						<img src="img/grandma.png" alt="бабушка">
+    					</div>
     				</div>
     				<div class="slide">
-    					<h1> наследование и семейное право </h1>
-    					<h3>- сейчас они у меня получат</h3>
-    					<p>Нина Петровна, 2 часа ночи</p>
-    					<img src="" alt="">
+    					<div class="header__item1">
+    						<div class="header__h1">
+    							<h1> наследование и семейное право </h1>
+    						</div>
+    						<h3>Вот увидите</h3>
+    						<p>Нина Петровна, 2 часа ночи</p>
+    						<img src="img/grandma.png" alt="бабушка">
+    					</div>
     				</div>
-    						-->
     			</div> 
     			<div class="header__line"></div>
     		</div>
@@ -397,17 +408,7 @@
 		</div>
 
 		<section id="bbb" name="active">
-			<div id="slideshow">
-				<div class="slide"><img src="images/css.png" 	data="css"	alt=""></div>
-				<div class="slide"><img src="images/git.png" 	data="github"	alt=""></div>
-				<div class="slide"><img src="images/html.png"   data="html"	alt=""></div>
-				<div class="slide"><img src="images/jquery.png" data="jquery"	alt=""></div>
-				<div class="slide"><img src="images/js.png" 	data="javascript"	alt=""></div>
-				<div class="slide"><img src="images/ps.png" 	data="photoshop"	alt=""></div>
-				
-				<div class="tooltip-block"></div>
-				
-			</div>
+
 			
 
 			

@@ -149,17 +149,50 @@ body {
   position: relative;
   height: 530px;
 }
-.header .header_allwidth .slideshow {
+.header .header_allwidth .slideshow1 {
   margin: 0 auto;
   padding: 0 40px;
+  position: relative;
   width: 1080px;
 }
-.header .header_allwidth .slideshow .header__item1 {
+.header .header_allwidth .slideshow1 .slide {
+  opacity: 0;
+  transition: 0.7s;
+  position: absolute;
+  top: 0;
+}
+.header .header_allwidth .slideshow1 .showed {
+  opacity: 1;
+  transition: 0.7s;
+}
+.header .header_allwidth .slideshow1 #prewbutton1, .header .header_allwidth .slideshow1 #nextbutton1 {
+  position: absolute;
+  top: 159px;
+  width: 41px;
+  line-height: 200px;
+  font-size: 35px;
+  height: 200px;
+  z-index: 999;
+  text-decoration: none;
+  text-align: center;
+  color: #aaa;
+}
+.header .header_allwidth .slideshow1 #prewbutton1:hover, .header .header_allwidth .slideshow1 #nextbutton1:hover {
+  background-color: rgba(76, 189, 102, 0.2);
+}
+.header .header_allwidth .slideshow1 #prewbutton1 {
+  left: -40px;
+}
+.header .header_allwidth .slideshow1 #nextbutton1 {
+  right: -40px;
+}
+.header .header_allwidth .slideshow1 .header__item1 {
   position: relative;
   padding-top: 83px;
-  height: 100%;
+  width: 1080px;
+  height: 528px;
 }
-.header .header_allwidth .slideshow .header__item1 .header__h1 {
+.header .header_allwidth .slideshow1 .header__item1 .header__h1 {
   width: 306px;
   height: 32px;
   background-image: linear-gradient(96deg, #30bc50, #1a8e5d);
@@ -167,7 +200,7 @@ body {
   -moz-transform: skew(-16deg);
   -o-transform: skew(-16deg);
 }
-.header .header_allwidth .slideshow .header__item1 .header__h1 h1 {
+.header .header_allwidth .slideshow1 .header__item1 .header__h1 h1 {
   line-height: 32px;
   text-transform: uppercase;
   font-size: 14px;
@@ -178,7 +211,7 @@ body {
   -moz-transform: skew(16deg);
   -o-transform: skew(16deg);
 }
-.header .header_allwidth .slideshow .header__item1 h3 {
+.header .header_allwidth .slideshow1 .header__item1 h3 {
   margin-top: 35px;
   width: 420px;
   font-family: Helvetica;
@@ -188,7 +221,7 @@ body {
   text-transform: uppercase;
   color: #737373;
 }
-.header .header_allwidth .slideshow .header__item1 p {
+.header .header_allwidth .slideshow1 .header__item1 p {
   width: 214px;
   font-family: Helvetica;
   font-size: 16px;
@@ -198,7 +231,7 @@ body {
   color: #737373;
   margin-top: 32px;
 }
-.header .header_allwidth .slideshow .header__item1 img {
+.header .header_allwidth .slideshow1 .header__item1 img {
   width: 417px;
   height: 374px;
   object-fit: contain;
