@@ -9,17 +9,10 @@
     <link href="css/screen.css" rel="stylesheet">
 	<link href="css/media.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/a750d0f9e9.js"></script>
 	<script src="js/mask.js" type="text/javascript"></script>
     <script src="js/script.js" type="text/javascript"></script>  
 
-	<style>
-	
-	.slideshow2, .slideshow3 { overflow: hidden; }
-		.slideshow2__inner, .slideshow3__inner {
-			width: 10000px;
-		}
-	</style>
-   
    
 
   </head>
@@ -399,10 +392,10 @@
 			<div class="soc">
 				<p>Мы в социальных сетях</p>
 				<ul>
-					<li class="soc__vk" ></li>
-					<li class="soc__fb" ></li>
-					<li class="soc__tw" ></li>
-					<li class="soc__you" ></li>
+					<li class="soc__vk" ><i class="fa fa-vk" aria-hidden="true"></i></li>
+					<li class="soc__fb" ><i class="fa fa-facebook" aria-hidden="true"></i></li>
+					<li class="soc__tw" ><i class="fa fa-twitter" aria-hidden="true"></i></li>
+					<li class="soc__you" ><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
 				</ul>
 			</div>
 		</div>
